@@ -15,3 +15,5 @@ const messageFill = {
         console.log(`Today is a ${this._day[randomDay]} day.\nYou will have good fortune with your ${this._area[randomLuckArea]}.\nBe careful with and pay special attention to your ${this._area[randomConcernArea]}.`);
     }
 }
+
+messageFill.getMessage();
